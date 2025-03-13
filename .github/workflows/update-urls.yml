@@ -7,9 +7,9 @@ jobs:
     steps:
       - uses: graalvm/setup-graalvm@v1
         with:
-        java-version: '21.0.2'
-        distribution: 'graalvm'
-        native-image-job-reports: 'true'
+          java-version: '21.0.2'
+          distribution: 'graalvm'
+          native-image-job-reports: 'true'
       - name: Checkout ide
         uses: actions/checkout@v3
         with:
