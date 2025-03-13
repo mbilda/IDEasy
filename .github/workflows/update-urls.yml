@@ -28,4 +28,4 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          path: /home/runner/work/IDEasy/IDEasy/ide-urls
+          path: /home/runner/work/IDEasy/IDEasy/ide-urls2
