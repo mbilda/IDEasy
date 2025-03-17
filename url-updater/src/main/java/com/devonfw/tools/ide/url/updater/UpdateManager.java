@@ -7,46 +7,9 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.devonfw.tools.ide.tool.docker.DockerDesktopUrlUpdater;
 import com.devonfw.tools.ide.url.model.folder.UrlRepository;
 import com.devonfw.tools.ide.url.model.report.UrlFinalReport;
-import com.devonfw.tools.ide.url.tool.androidstudio.AndroidStudioUrlUpdater;
-import com.devonfw.tools.ide.url.tool.aws.AwsUrlUpdater;
-import com.devonfw.tools.ide.url.tool.az.AzureUrlUpdater;
 import com.devonfw.tools.ide.url.tool.docker.DockerDesktopUrlUpdater;
-import com.devonfw.tools.ide.url.tool.docker.DockerRancherDesktopUrlUpdater;
-import com.devonfw.tools.ide.url.tool.dotnet.DotNetUrlUpdater;
-import com.devonfw.tools.ide.url.tool.eclipse.EclipseCppUrlUpdater;
-import com.devonfw.tools.ide.url.tool.eclipse.EclipseJavaUrlUpdater;
-import com.devonfw.tools.ide.url.tool.eclipse.EclipseJeeUrlUpdater;
-import com.devonfw.tools.ide.url.tool.gcloud.GCloudUrlUpdater;
-import com.devonfw.tools.ide.url.tool.gcviewer.GcViewerUrlUpdater;
-import com.devonfw.tools.ide.url.tool.gh.GhUrlUpdater;
-import com.devonfw.tools.ide.url.tool.graalvm.GraalVmCommunityUpdater;
-import com.devonfw.tools.ide.url.tool.graalvm.GraalVmOracleUrlUpdater;
-import com.devonfw.tools.ide.url.tool.gradle.GradleUrlUpdater;
-import com.devonfw.tools.ide.url.tool.helm.HelmUrlUpdater;
-import com.devonfw.tools.ide.url.tool.intellij.IntellijUrlUpdater;
-import com.devonfw.tools.ide.url.tool.jasypt.JasyptUrlUpdater;
-import com.devonfw.tools.ide.url.tool.java.JavaUrlUpdater;
-import com.devonfw.tools.ide.url.tool.jenkins.JenkinsUrlUpdater;
-import com.devonfw.tools.ide.url.tool.jmc.JmcUrlUpdater;
-import com.devonfw.tools.ide.url.tool.kotlinc.KotlincNativeUrlUpdater;
-import com.devonfw.tools.ide.url.tool.kotlinc.KotlincUrlUpdater;
-import com.devonfw.tools.ide.url.tool.lazydocker.LazyDockerUrlUpdater;
-import com.devonfw.tools.ide.url.tool.mvn.Mvn4UrlUpdater;
-import com.devonfw.tools.ide.url.tool.mvn.MvnUrlUpdater;
-import com.devonfw.tools.ide.url.tool.node.NodeUrlUpdater;
-import com.devonfw.tools.ide.url.tool.npm.NpmUrlUpdater;
-import com.devonfw.tools.ide.url.tool.oc.OcUrlUpdater;
-import com.devonfw.tools.ide.url.tool.pgadmin.PgAdminUrlUpdater;
-import com.devonfw.tools.ide.url.tool.pip.PipUrlUpdater;
-import com.devonfw.tools.ide.url.tool.python.PythonUrlUpdater;
-import com.devonfw.tools.ide.url.tool.quarkus.QuarkusUrlUpdater;
-import com.devonfw.tools.ide.url.tool.sonar.SonarUrlUpdater;
-import com.devonfw.tools.ide.url.tool.terraform.TerraformUrlUpdater;
-import com.devonfw.tools.ide.url.tool.tomcat.TomcatUrlUpdater;
-import com.devonfw.tools.ide.url.tool.vscode.VsCodeUrlUpdater;
 
 /**
  * The {@code UpdateManager} class manages the update process for various tools by using a list of {@link AbstractUrlUpdater}s to update the
